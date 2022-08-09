@@ -3,7 +3,8 @@
 
 Create a pull request and add your mail function/route to app.py and I will merge it!
 
-Form actions will be https://thatformworks.pythonanywhere.com/mailNAMEHERE
+Form actions will be https://thatformworks.pythonanywhere.com/mailNAMEHERE.
+Be sure to add method="POST" in your form too!
 
 Example function/route:
 ```
