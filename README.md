@@ -37,3 +37,6 @@ Fork it and add your mail function/route. Create a pull request afterwards. I wi
 I made this for my own forms, but if anyone else needs this, they are free to create a pull request for their own form (instructions above).
 
 I've hosted the production version of Thatformworks on PythonAnywhere.
+
+Just to be clear:
+You CANNOT redistribute, modify, or use this software/code in any way. You may only create and merge pull requests and suggest edits to it. You may use form actions which are defined in the app.py program (using the thatformworks.pythonanywhere.com subdomain).
