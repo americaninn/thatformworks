@@ -1,4 +1,4 @@
 # Thatformworks
 ### Make your HTML form work for free!
 
-Go https://thatformworks.pythonanywhere.com and apply for a form!
+Create a pull request and add your mail function/route to app.py and I will merge it!
