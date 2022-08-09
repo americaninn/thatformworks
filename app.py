@@ -1,3 +1,7 @@
+# Author: Savir Singh
+# Name: Thatformworks
+# Year: 2022
+
 # importing required modules/packages
 from flask import *
 import smtplib, ssl
