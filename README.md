@@ -28,3 +28,4 @@ def mailNAME(): # again, change NAME to your name or GitHub username
 
     return redirect("/success")
 ```
+THIS IS ONLY AN EXAMPLE, YOUR NEEDS MAY BE DIFFERENT (E.G. YOU MIGHT NEED 3 REQUEST.FORMS INSTEAD OF 2). CHANGE ACCORDING TO WHAT YOU NEED.
