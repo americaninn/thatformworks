@@ -6,6 +6,8 @@ Create a pull request and add your mail function/route to app.py and I will merg
 Form actions will be https://thatformworks.pythonanywhere.com/mailNAMEHERE.
 Be sure to add method="POST" in your form too!
 
+This is recommended for ALL HTML forms, including contact and reservation forms.
+
 Example function/route:
 ```
 # mail function for (ADD YOUR NAME/GITHUB USERNAME HERE)
