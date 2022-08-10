@@ -46,7 +46,7 @@ def mailthatformworks():
     msg = EmailMessage()
     msg['Subject'] = (email)
     msg['From'] = EMAIL_ADDRESS
-    msg['To'] = 'your_email'
+    msg['To'] = 'kopichiki@gmail.com'
 
     msg.set_content(message)
 
