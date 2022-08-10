@@ -35,6 +35,27 @@ def mailsavir():
 
     return redirect("/success")
 
+# mail function for Thatformworks Online users
+@app.route("/mailthatformworks", methods=["POST"])
+def mailsavir():
+    email = 'Thatformworks Online User'
+    message = request.form["important"]
+    EMAIL_ADDRESS = 'THEEMAIL'
+    EMAIL_PASSWORD = 'THEPASSWORD'
+    
+    msg = EmailMessage()
+    msg['Subject'] = (email)
+    msg['From'] = EMAIL_ADDRESS
+    msg['To'] = 'your_email'
+
+    msg.set_content(message)
+
+    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+        smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+        smtp.send_message(msg)
+
+    return redirect("/success")
+
 # running it
 if __name__ == '__main__':
     app.run(debug=True)
