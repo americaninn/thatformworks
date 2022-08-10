@@ -35,6 +35,16 @@ def mailNAME(): # again, change NAME to your name or GitHub username
 ```
 THIS IS ONLY AN EXAMPLE, YOUR NEEDS MAY BE DIFFERENT (E.G. YOU MIGHT NEED 3 REQUEST.FORMS INSTEAD OF 2). CHANGE ACCORDING TO WHAT YOU NEED.
 
+Example HTML form (after creating function/route in app.py):
+```
+<form action="https://thatformworks.pythonanywhere.com/mailYOURNAME">
+    <input type="text" name="RELEVANT NAME GOES HERE">
+    <input type="email" name="RELEVANT NAME GOES HERE">
+    <input type="submit" value="SUBMIT">
+</form>
+```
+AGAIN, THIS IS ANOTHER EXAMPLE. YOUR FORM MAY LOOK SLIGHTLY DIFFERENT.
+
 Fork it and add your mail function/route. Create a pull request afterwards. I will merge it, and then you can then use it for your form action in HTML.
 
 I made this for my own forms, but if anyone else needs this, they are free to create a pull request for their own form (instructions above).
