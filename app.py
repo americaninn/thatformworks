@@ -37,7 +37,7 @@ def mailsavir():
 
 # mail function for Thatformworks Online users
 @app.route("/mailthatformworks", methods=["POST"])
-def mailsavir():
+def mailthatformworks():
     email = 'Thatformworks Online User'
     message = request.form["important"]
     EMAIL_ADDRESS = 'THEEMAIL'
