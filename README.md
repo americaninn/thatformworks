@@ -8,6 +8,8 @@ Be sure to add method="POST" in your form too!
 
 Thatformworks is recommended for ALL HTML forms, including contact and reservation forms.
 
+Blog Post About Thatformworks: https://savirsingh.github.io/blog/01
+
 Example function/route:
 ```
 # mail function for (ADD YOUR NAME/GITHUB USERNAME HERE)
